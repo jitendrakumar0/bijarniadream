@@ -1,0 +1,27 @@
+body {
+  overflow: hidden;
+}
+
+body .main_bg {
+  background: #e80202;
+}
+
+body .main_bg .main_backg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50px;
+  height: 100px;
+  background: #e80202;
+  -webkit-box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+body .main_bg .main_backg .curved {
+  -webkit-box-shadow: inset -2px -2px 3px 3px #14171a, inset 2px 2px 3px 4px #2a2f33;
+          box-shadow: inset -2px -2px 3px 3px #14171a, inset 2px 2px 3px 4px #2a2f33;
+}
+/*# sourceMappingURL=style.css.map */
