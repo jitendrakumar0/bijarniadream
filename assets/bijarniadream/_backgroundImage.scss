@@ -39,16 +39,18 @@ $bgAttachment: (
 
 @if $backgroundImage == true {
   /* Background image */
+
+  
+  .bg-fluid {
+    background: var(--bg);
+    background-position: var(--bgPosition);
+    background-size: var(--bgSize);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 
-.bg-fluid {
-  background: var(--bg);
-  background-position: var(--bgPosition);
-  background-size: var(--bgSize);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 
 @mixin backgroundImage($bp: "") {

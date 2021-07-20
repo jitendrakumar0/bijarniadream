@@ -10,6 +10,7 @@
 @import "right";
 @import "display";
 @import "backgroundImage";
+@import "rounded";
 
 @mixin prefix() {
   @include font-size();
@@ -23,6 +24,7 @@
   @include right();
   @include display();
   @include backgroundImage();
+  @include rounded();
   @each $label, $bareckpoint in $brecks {
     @media (min-width: #{$bareckpoint}px) {
       @if $breckpoints == true {
@@ -37,6 +39,7 @@
         @include right(#{$label}-);
         @include display(#{$label}-);
         @include backgroundImage(#{$label}-);
+        @include rounded(#{$label}-);
       }
     }
   }

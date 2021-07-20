@@ -1,7 +1,7 @@
 /*!
- * bijarniadream v5.0.0-beta3 (https://getbijarniadream.com/)
- * Copyright 2011-2021 The bijarniadream Authors
- * Copyright 2011-2021 Twitter, Inc.
+ * bijarniadream v1.3.1 (https://jitendrakumar0.github.io/bijarniadream/)
+ * Copyright 2018-2021 The bijarniadream Authors
+ * Copyright 2018-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/jitendrakumar0/bijarniadream/blob/master/LICENSE)
  */
 /* Font Size in viewport format              :   from 0vw  to  100vw */
@@ -40,6 +40,7 @@
   background-attachment: fixed;
 }
 
+/* Rounded Corners              :   from 0px  to  50px */
 .fs-0 {
   font-size: 0px !important;
 }
@@ -7338,6 +7339,82 @@
   background-attachment: scroll !important;
 }
 
+.rounded-0 {
+  border-radius: 0px !important;
+}
+
+.rounded-1 {
+  border-radius: 1px !important;
+}
+
+.rounded-2 {
+  border-radius: 2px !important;
+}
+
+.rounded-3 {
+  border-radius: 3px !important;
+}
+
+.rounded-4 {
+  border-radius: 4px !important;
+}
+
+.rounded-5 {
+  border-radius: 5px !important;
+}
+
+.rounded-6 {
+  border-radius: 6px !important;
+}
+
+.rounded-7 {
+  border-radius: 7px !important;
+}
+
+.rounded-8 {
+  border-radius: 8px !important;
+}
+
+.rounded-9 {
+  border-radius: 9px !important;
+}
+
+.rounded-10 {
+  border-radius: 10px !important;
+}
+
+.rounded-15 {
+  border-radius: 15px !important;
+}
+
+.rounded-20 {
+  border-radius: 20px !important;
+}
+
+.rounded-25 {
+  border-radius: 25px !important;
+}
+
+.rounded-30 {
+  border-radius: 30px !important;
+}
+
+.rounded-35 {
+  border-radius: 35px !important;
+}
+
+.rounded-40 {
+  border-radius: 40px !important;
+}
+
+.rounded-45 {
+  border-radius: 45px !important;
+}
+
+.rounded-50 {
+  border-radius: 50px !important;
+}
+
 @media (min-width: 576px) {
   .fs-sm-0 {
     font-size: 0px !important;
@@ -12813,6 +12890,63 @@
   }
   .bg-sm-scroll {
     background-attachment: scroll !important;
+  }
+  .rounded-sm-0 {
+    border-radius: 0px !important;
+  }
+  .rounded-sm-1 {
+    border-radius: 1px !important;
+  }
+  .rounded-sm-2 {
+    border-radius: 2px !important;
+  }
+  .rounded-sm-3 {
+    border-radius: 3px !important;
+  }
+  .rounded-sm-4 {
+    border-radius: 4px !important;
+  }
+  .rounded-sm-5 {
+    border-radius: 5px !important;
+  }
+  .rounded-sm-6 {
+    border-radius: 6px !important;
+  }
+  .rounded-sm-7 {
+    border-radius: 7px !important;
+  }
+  .rounded-sm-8 {
+    border-radius: 8px !important;
+  }
+  .rounded-sm-9 {
+    border-radius: 9px !important;
+  }
+  .rounded-sm-10 {
+    border-radius: 10px !important;
+  }
+  .rounded-sm-15 {
+    border-radius: 15px !important;
+  }
+  .rounded-sm-20 {
+    border-radius: 20px !important;
+  }
+  .rounded-sm-25 {
+    border-radius: 25px !important;
+  }
+  .rounded-sm-30 {
+    border-radius: 30px !important;
+  }
+  .rounded-sm-35 {
+    border-radius: 35px !important;
+  }
+  .rounded-sm-40 {
+    border-radius: 40px !important;
+  }
+  .rounded-sm-45 {
+    border-radius: 45px !important;
+  }
+  .rounded-sm-50 {
+    border-radius: 50px !important;
   }
 }
 
@@ -18292,6 +18426,63 @@
   .bg-md-scroll {
     background-attachment: scroll !important;
   }
+  .rounded-md-0 {
+    border-radius: 0px !important;
+  }
+  .rounded-md-1 {
+    border-radius: 1px !important;
+  }
+  .rounded-md-2 {
+    border-radius: 2px !important;
+  }
+  .rounded-md-3 {
+    border-radius: 3px !important;
+  }
+  .rounded-md-4 {
+    border-radius: 4px !important;
+  }
+  .rounded-md-5 {
+    border-radius: 5px !important;
+  }
+  .rounded-md-6 {
+    border-radius: 6px !important;
+  }
+  .rounded-md-7 {
+    border-radius: 7px !important;
+  }
+  .rounded-md-8 {
+    border-radius: 8px !important;
+  }
+  .rounded-md-9 {
+    border-radius: 9px !important;
+  }
+  .rounded-md-10 {
+    border-radius: 10px !important;
+  }
+  .rounded-md-15 {
+    border-radius: 15px !important;
+  }
+  .rounded-md-20 {
+    border-radius: 20px !important;
+  }
+  .rounded-md-25 {
+    border-radius: 25px !important;
+  }
+  .rounded-md-30 {
+    border-radius: 30px !important;
+  }
+  .rounded-md-35 {
+    border-radius: 35px !important;
+  }
+  .rounded-md-40 {
+    border-radius: 40px !important;
+  }
+  .rounded-md-45 {
+    border-radius: 45px !important;
+  }
+  .rounded-md-50 {
+    border-radius: 50px !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -23769,6 +23960,63 @@
   }
   .bg-lg-scroll {
     background-attachment: scroll !important;
+  }
+  .rounded-lg-0 {
+    border-radius: 0px !important;
+  }
+  .rounded-lg-1 {
+    border-radius: 1px !important;
+  }
+  .rounded-lg-2 {
+    border-radius: 2px !important;
+  }
+  .rounded-lg-3 {
+    border-radius: 3px !important;
+  }
+  .rounded-lg-4 {
+    border-radius: 4px !important;
+  }
+  .rounded-lg-5 {
+    border-radius: 5px !important;
+  }
+  .rounded-lg-6 {
+    border-radius: 6px !important;
+  }
+  .rounded-lg-7 {
+    border-radius: 7px !important;
+  }
+  .rounded-lg-8 {
+    border-radius: 8px !important;
+  }
+  .rounded-lg-9 {
+    border-radius: 9px !important;
+  }
+  .rounded-lg-10 {
+    border-radius: 10px !important;
+  }
+  .rounded-lg-15 {
+    border-radius: 15px !important;
+  }
+  .rounded-lg-20 {
+    border-radius: 20px !important;
+  }
+  .rounded-lg-25 {
+    border-radius: 25px !important;
+  }
+  .rounded-lg-30 {
+    border-radius: 30px !important;
+  }
+  .rounded-lg-35 {
+    border-radius: 35px !important;
+  }
+  .rounded-lg-40 {
+    border-radius: 40px !important;
+  }
+  .rounded-lg-45 {
+    border-radius: 45px !important;
+  }
+  .rounded-lg-50 {
+    border-radius: 50px !important;
   }
 }
 
@@ -29248,6 +29496,63 @@
   .bg-xl-scroll {
     background-attachment: scroll !important;
   }
+  .rounded-xl-0 {
+    border-radius: 0px !important;
+  }
+  .rounded-xl-1 {
+    border-radius: 1px !important;
+  }
+  .rounded-xl-2 {
+    border-radius: 2px !important;
+  }
+  .rounded-xl-3 {
+    border-radius: 3px !important;
+  }
+  .rounded-xl-4 {
+    border-radius: 4px !important;
+  }
+  .rounded-xl-5 {
+    border-radius: 5px !important;
+  }
+  .rounded-xl-6 {
+    border-radius: 6px !important;
+  }
+  .rounded-xl-7 {
+    border-radius: 7px !important;
+  }
+  .rounded-xl-8 {
+    border-radius: 8px !important;
+  }
+  .rounded-xl-9 {
+    border-radius: 9px !important;
+  }
+  .rounded-xl-10 {
+    border-radius: 10px !important;
+  }
+  .rounded-xl-15 {
+    border-radius: 15px !important;
+  }
+  .rounded-xl-20 {
+    border-radius: 20px !important;
+  }
+  .rounded-xl-25 {
+    border-radius: 25px !important;
+  }
+  .rounded-xl-30 {
+    border-radius: 30px !important;
+  }
+  .rounded-xl-35 {
+    border-radius: 35px !important;
+  }
+  .rounded-xl-40 {
+    border-radius: 40px !important;
+  }
+  .rounded-xl-45 {
+    border-radius: 45px !important;
+  }
+  .rounded-xl-50 {
+    border-radius: 50px !important;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -34725,6 +35030,63 @@
   }
   .bg-xxl-scroll {
     background-attachment: scroll !important;
+  }
+  .rounded-xxl-0 {
+    border-radius: 0px !important;
+  }
+  .rounded-xxl-1 {
+    border-radius: 1px !important;
+  }
+  .rounded-xxl-2 {
+    border-radius: 2px !important;
+  }
+  .rounded-xxl-3 {
+    border-radius: 3px !important;
+  }
+  .rounded-xxl-4 {
+    border-radius: 4px !important;
+  }
+  .rounded-xxl-5 {
+    border-radius: 5px !important;
+  }
+  .rounded-xxl-6 {
+    border-radius: 6px !important;
+  }
+  .rounded-xxl-7 {
+    border-radius: 7px !important;
+  }
+  .rounded-xxl-8 {
+    border-radius: 8px !important;
+  }
+  .rounded-xxl-9 {
+    border-radius: 9px !important;
+  }
+  .rounded-xxl-10 {
+    border-radius: 10px !important;
+  }
+  .rounded-xxl-15 {
+    border-radius: 15px !important;
+  }
+  .rounded-xxl-20 {
+    border-radius: 20px !important;
+  }
+  .rounded-xxl-25 {
+    border-radius: 25px !important;
+  }
+  .rounded-xxl-30 {
+    border-radius: 30px !important;
+  }
+  .rounded-xxl-35 {
+    border-radius: 35px !important;
+  }
+  .rounded-xxl-40 {
+    border-radius: 40px !important;
+  }
+  .rounded-xxl-45 {
+    border-radius: 45px !important;
+  }
+  .rounded-xxl-50 {
+    border-radius: 50px !important;
   }
 }
 /*# sourceMappingURL=bijarniadream.css.map */
